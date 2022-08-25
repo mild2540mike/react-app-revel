@@ -186,14 +186,14 @@ class UserUpdate extends Component {
                     <Col lg="3">
                       <FormGroup>
                         <Label> อีเมล์ / Email </Label>
-                        <Input type="text" id="user_email" name="user_email" type="email" class="form-control" />
+                        <Input id="user_email" name="user_email" type="email" class="form-control" />
                         <p class="help-block">Example : admin@revelsoft.co.th.</p>
                       </FormGroup>
                     </Col>
                     <Col lg="3">
                       <FormGroup>
                         <Label>โทรศัพท์ / Mobile </Label>
-                        <Input type="text" id="user_tel" name="user_tel" type="text" class="form-control" />
+                        <Input id="user_tel" name="user_tel" type="text" class="form-control" />
                         <p class="help-block">Example : 0610243003.</p>
                       </FormGroup>
                     </Col>
@@ -207,7 +207,7 @@ class UserUpdate extends Component {
                     <Col lg="3">
                       <FormGroup>
                         <Label>รหัสผ่าน / Password <font color="#F00"><b>*</b></font></Label>
-                        <Input type="text" id="user_password" name="user_password" type="password" class="form-control" />
+                        <Input id="user_password" name="user_password" type="password" class="form-control" />
                         <p id="alert_user_password" class="help-block">Example : thanaadmin.</p>
                       </FormGroup>
                     </Col>
